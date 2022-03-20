@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="sv">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Djupvik</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <header>
+    <h1>Djupvik Hamn</h1>
+    <nav>
+      <ul>
+        <li><a href="./index.html">Hem</a></li>
+        <li><a href="./guestPlace.html">Gäst plats</a></li>
+        <li><a href="./medlemsinfo.html">Medlemsinfo</a></li>
+        <li><a href="./touristDest.html">Turistmål</a></li>
+        <li><a href="./contact.html">Kontakt</a></li>
+        <li><a href="english.html"> English </a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Djupvik kontaktinformation</h2>
+      <article>
+        <h3>Kontaktuppgifter</h3>
+        <p>Hamnfogde Bo Lautin, mobil 0707-920310</p>
+        <p>
+          Djupviks hamnförening<br />
+          c/o Ekholm<br />
+          Eksta Hägur 170<br />
+          623 54 Klintehamn<br />
+        </p>
+      </article>
+      <article>
+        <h3>Kontaktformulär</h3>
+        <form action="#" method="POST">
+          <fieldset>
+            <legend>Vänligen fyll i formuläret, så hjälper vi dig.</legend>
+            <p>
+              <label for="Rubrik_arende">Rubrik:</label>
+              <input type="text" name="rubrik_arende" />
+            </p>
+            <p>
+              <label for="Namn">Namn:</label>
+              <input type="text" name="namn" />
+            </p>
+            <p>
+              <label for="Email">E-mail:</label>
+              <input type="email" name="email" />
+            </p>
+            <p>
+              <label for="Telefon">Telefon:</label>
+              <input type="tel" name="telefon" />
+            </p>
+            <p>
+              <label>Hur vill du bli kontaktad?</label>
+              <br />
+
+              <input type="checkbox" value="valueTelefon" />
+              <label> Telephone</label><br />
+              <input type="checkbox" value="valueEemail" />
+              <label> Email</label><br />
+            </p>
+            <p>
+              <label>Ärendet gäller:</label>
+              <br />
+
+              <input type="checkbox" value="place" />
+              <label> Båtplats</label><br />
+              <input type="checkbox" value="member" />
+              <label> Medlem</label><br />
+              <input type="checkbox" value="ovrigt" />
+              <label> Övrigt</label><br />
+            </p>
+            <p>
+              <label for="Beskrivning_arendet"
+                >Beskrivning till ditt ärende*:</label
+              >
+              <textarea name="beskrivning_arendet" required></textarea>
+            </p>
+            <p>
+              <input
+                type="submit"
+                value="Skicka in formuläret"
+                class="inputButtons"
+              />
+            </p>
+          </fieldset>
+        </form>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p>Copyright 2022</p>
+  </footer>
+</html>

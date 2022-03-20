@@ -1,0 +1,297 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers*/
+
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+
+a:hover {
+  color: rgb(1, 17, 236);
+}
+
+h2 {
+  margin: 1.5%;
+  font-size: large;
+  font-weight: bolder;
+  color: rgb(1, 17, 236);
+}
+
+h3 {
+  font-size: medium;
+  margin: 1.5%;
+  font-weight: 100;
+}
+
+.story>h3 {
+  margin: 1.5%;
+  font-size: large;
+  font-weight: 800;
+}
+
+p {
+  margin: 2%;
+}
+
+h1 {
+  font-size: xx-large;
+  font-weight: bolder;
+  color: rgb(1, 17, 236);
+  align-items: center;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+@media screen and (min-width: 600px) {}
+
+header>p {
+  font-weight: bold;
+}
+
+header {
+  padding: 1%;
+  text-align: center;
+  background-color: rgb(121, 240, 240);
+}
+
+#story {
+  margin-bottom: 25px;
+  font-size: 15px;
+  padding: 10px;
+  background-color: rgb(179, 245, 253);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto ;
+  padding: 10px;
+}
+
+#products {
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  grid-template-columns: 48% 48%;
+
+  @media screen and (min-width: 425px) {}
+}
+
+table {
+  margin-bottom: 1%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid;
+  padding: 0.3rem;
+  text-align: center;
+  border-color: rgb(112, 144, 248);
+}
+
+th {
+  border: 1px solid;
+  border-color: rgb(112, 144, 248);
+  padding: 0.3rem;
+  background: #b3e5fc;
+  font-weight: bold;
+}
+
+
+tr:nth-of-type(odd) {
+  background-color: rgb(223, 252, 252);
+}
+
+#name_description {
+  justify-content: center;
+  align-items: center;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(121, 240, 240);
+}
+
+article {
+  background-color: rgb(179, 245, 253);
+  border-radius: 10px;
+  margin: 2%;
+}
+
+nav {
+  background-color: rgb(227, 235, 217);
+  width: 100%;
+  margin: 0.5%;
+  border: 2px solid rgb(211, 223, 196);
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section {
+  margin-left: 10%;
+  margin-right: 10%;
+  border-radius: 10px;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 30px;
+}
+
+li>a {
+  text-decoration: none;
+  color: rgba(10, 118, 180, 0.616);
+  font-weight: 900;
+  font-size: large;
+}
+
+a {
+  text-decoration: none;
+  font-weight: 600;
+  color: rgba(10, 118, 180, 0.616);
+}
+
+img,figcaption {
+  width: 35%;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  
+}
+.konardImg{
+  width: 100%;
+  border-radius: 5px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  
+}
+
+
+body {
+  background-color: rgb(207, 248, 248);
+  font-family: "Caveat", cursive;
+}
+
+aside {
+  width: 35%;
+  padding-left: 15px;
+  border-radius: 10px;
+  padding-bottom: 15px;
+  margin-left: 15px;
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  font-style: italic;
+}
+
+
+#mdelemTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+input {
+  background-color: white;
+  color: black;
+  border: 2px solid #555555;
+  border-radius: 5px;
+}
+
+.inputButtons:hover {
+  background-color: #1446EE;
+  color: white;
+}
